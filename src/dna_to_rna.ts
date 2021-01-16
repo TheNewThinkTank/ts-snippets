@@ -1,4 +1,8 @@
 
+export class DNAtoRNA {
+
+}
+
 var map = {"T": "A", "A": "U", "C": "G", "G": "C"};
 
 var DNA: string = "AACT";
