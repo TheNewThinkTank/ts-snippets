@@ -2,10 +2,12 @@
 Reusable recipes for TypeScript
 
 ## Installation (OSX)
+```BASH
 brew install node<br/>
 npm install -g typescript<br/>
 tsc --version<br/>
 npm install -g ts-node
+```
 
 ## How to run a TypeScript program
 ### First compile into JavaScript
