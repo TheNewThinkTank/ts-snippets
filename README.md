@@ -3,9 +3,9 @@ Reusable recipes for TypeScript
 
 ## Installation (OSX)
 ```BASH
-brew install node<br/>
-npm install -g typescript<br/>
-tsc --version<br/>
+brew install node
+npm install -g typescript
+tsc --version
 npm install -g ts-node
 ```
 
