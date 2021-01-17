@@ -7,15 +7,15 @@ npm install -g typescript<br/>
 tsc --version<br/>
 npm install -g ts-node
 
-## How to run a TypeScript program:
-### First compile into JavaScript:<br/>
-tsc dna_to_rna.ts --target ES5
+## How to run a TypeScript program
+### First compile into JavaScript
+tsc some_file.ts --target ES5
 
-### Or watch any TypeScript file:
+### Or watch any TypeScript file
 tsc *.ts --watch --target ES5
 
-### Then run the compiled JavaScript:
-node dna_to_rna.js
+### Then run the compiled JavaScript
+node some_file.js
 
-### Or all at once:
-ts-node dna_to_rna.ts
+### Or all at once
+ts-node some_file.ts
