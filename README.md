@@ -11,7 +11,7 @@ npm install -g ts-node
 
 ## How to run a TypeScript program
 ### First compile into JavaScript
-tsc some_file.ts --target ES5
+`tsc some_file.ts --target ES5`
 
 ### Or watch any TypeScript file
 tsc *.ts --watch --target ES5
