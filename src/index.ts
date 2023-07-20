@@ -46,3 +46,15 @@ var hello = "is it me you're looking for?";
 for (var char of hello) {
     console.log(char); // is it me you're looking for?
 }
+
+// template literals
+
+// String Interpolation
+var lyrics = 'Never gonna give you up';
+var html = `<div>${lyrics}</div>`;
+
+// Multiline Literals
+var lyrics = `Never gonna give you up
+Never gonna let you down`;
+
+// Tagged Templates
