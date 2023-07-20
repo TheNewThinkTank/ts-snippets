@@ -12,12 +12,12 @@ npm install -g ts-node
 ## How to run a TypeScript program
 ### First compile into JavaScript
 ```BASH
-tsc some_file.ts --target ES5
+tsc some_file.ts --target ES6
 ```
 
 ### Or watch any TypeScript file
 ```BASH
-tsc *.ts --watch --target ES5
+tsc *.ts --watch --target ES6
 ```
 
 ### Then run the compiled JavaScript
