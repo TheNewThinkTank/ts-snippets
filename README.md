@@ -1,4 +1,3 @@
-[![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/AACT-Analysis?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/AACT-Analysis/archive/refs/heads/main.zip)
 [![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/ts-snippets?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/ts-snippets/archive/refs/heads/main.zip)
 # ts-snippets
 Reusable recipes for TypeScript
