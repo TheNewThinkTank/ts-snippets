@@ -40,7 +40,7 @@ for (let item of someArray) {
   console.log(item) // 9,2,5
 }
 
-let hello = "is it me you're looking for?";
+let hello = "is it me you're looking for?"
 for (let char of hello) {
   console.log(char) // is it me you're looking for?
 }
@@ -49,10 +49,12 @@ for (let char of hello) {
 
 // String Interpolation
 let lyrics = 'Never gonna give you up'
-let html = `<div>${lyrics}</div>`
+const html = `<div>${lyrics}</div>`
 
 // Multiline Literals
-let lyrics = `Never gonna give you up
+let lyrics2 = `Never gonna give you up
 Never gonna let you down`
+
+console.log(lyrics2)
 
 // Tagged Templates
