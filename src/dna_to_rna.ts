@@ -1,26 +1,25 @@
-
 export class DNAtoRNA {
 
 }
 
-var map = {"T": "A", "A": "U", "C": "G", "G": "C"};
+let map = {'T': 'A', 'A': 'U', 'C': 'G', 'G': 'C'};
 
-var DNA: string = "AACT";
-var RNA: string = "";
+let DNA: string = 'AACT';
+let RNA: string = '';
 
 // Using for loop
 for (let i=0; i < DNA.length; i++) {
   RNA += map[DNA[i]]
 }
 
-console.log("RNA is: " + RNA)
+console.log('RNA is: ' + RNA)
 
 // Using forEach loop
-var DNA: string[] = ["A", "A", "C", "T"];
-var RNA: string = "";
+let DNA: string[] = ['A', 'A', 'C', 'T'];
+let RNA: string = '';
 
 DNA.forEach(function (value) {
     RNA += map[value]
 });
 
-console.log("RNA is: " + RNA)
+console.log('RNA is: ' + RNA)
