@@ -30,29 +30,29 @@ console.log(point3D)
 
 // for...of
 
-var someArray = [9, 2, 5];
-for (var item in someArray) {
-    console.log(item) // 0,1,2
+let someArray = [9, 2, 5]
+for (let item in someArray) {
+  console.log(item) // 0,1,2
 }
 
-var someArray = [9, 2, 5]
-for (var item of someArray) {
-    console.log(item) // 9,2,5
+let someArray = [9, 2, 5]
+for (let item of someArray) {
+  console.log(item) // 9,2,5
 }
 
-var hello = "is it me you're looking for?";
-for (var char of hello) {
-    console.log(char) // is it me you're looking for?
+let hello = "is it me you're looking for?";
+for (let char of hello) {
+  console.log(char) // is it me you're looking for?
 }
 
 // template literals
 
 // String Interpolation
-var lyrics = 'Never gonna give you up'
-var html = `<div>${lyrics}</div>`
+let lyrics = 'Never gonna give you up'
+let html = `<div>${lyrics}</div>`
 
 // Multiline Literals
-var lyrics = `Never gonna give you up
+let lyrics = `Never gonna give you up
 Never gonna let you down`
 
 // Tagged Templates
