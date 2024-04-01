@@ -10,22 +10,23 @@ console.log(x, y, width, height) // 0,10,15,20
 
 // Apply
 function foo (x, y, z) { }
-let args = [0, 1, 2]
+const args = [0, 1, 2]
 foo(...args)
 
 // Destructuring
-var [x, y, ...remaining] = [1, 2, 3, 4]
+let [x, y, ...remaining] = [1, 2, 3, 4]
 console.log(x, y, remaining) // 1,2,[3,4]
 
 // Array Assignment
-var list = [1, 2]
+let list = [1, 2]
 list = [...list, 3, 4]
 console.log(list) // [1,2,3,4]
 
 // Object spread
-const point2D = {x: 1, y: 2}
+const point2D = { x: 1, y: 2 }
 /** Create a new object by using all the point2D props along with z */
-const point3D = {...point2D, z: 3}
+const point3D = { ...point2D, z: 3 }
+console.log(point3D)
 
 // for...of
 
