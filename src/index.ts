@@ -3,15 +3,15 @@
 const rect = { x: 0, y: 10, width: 15, height: 20 }
 
 // Destructuring assignment
-const { x, y, width, height } = rect
-console.log(x, y, width, height) // 0,10,15,20
+// const { x, y, width, height } = rect
+// console.log(x, y, width, height) // 0,10,15,20
 
 // Spread Operator
 
 // Apply
-function foo (x, y, z) { }
-const args = [0, 1, 2]
-foo(...args)
+// function foo (x, y, z) { }
+// const args = [0, 1, 2]
+// foo(...args)
 
 // Destructuring
 let [x, y, ...remaining] = [1, 2, 3, 4]
@@ -35,8 +35,8 @@ for (let item in someArray) {
   console.log(item) // 0,1,2
 }
 
-let someArray = [9, 2, 5]
-for (let item of someArray) {
+let otherArray = [9, 2, 5]
+for (let item of otherArray) {
   console.log(item) // 9,2,5
 }
 
