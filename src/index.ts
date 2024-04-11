@@ -31,25 +31,25 @@ console.log(point3D)
 
 // for...of
 
-const someArray = [9, 2, 5]
-for (let item in someArray) {
-  console.log(item) // 0,1,2
-}
+// const someArray = [9, 2, 5]
+// for (let item in someArray) {
+//   console.log(item) // 0,1,2
+// }
 
 const otherArray = [9, 2, 5]
-for (let item of otherArray) {
+for (const item of otherArray) {
   console.log(item) // 9,2,5
 }
 
-let hello = "is it me you're looking for?"
-for (let char of hello) {
+const hello = "is it me you're looking for?"
+for (const char of hello) {
   console.log(char) // is it me you're looking for?
 }
 
 // template literals
 
 // String Interpolation
-let lyrics = 'Never gonna give you up'
+const lyrics = 'Never gonna give you up'
 const html = `<div>${lyrics}</div>`
 console.log(html)
 
