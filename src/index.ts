@@ -1,6 +1,7 @@
 // Object Destructuring
 
 const rect = { x: 0, y: 10, width: 15, height: 20 }
+console.log(rect)
 
 // Destructuring assignment
 // const { x, y, width, height } = rect
@@ -14,7 +15,7 @@ const rect = { x: 0, y: 10, width: 15, height: 20 }
 // foo(...args)
 
 // Destructuring
-let [x, y, ...remaining] = [1, 2, 3, 4]
+const [x, y, ...remaining] = [1, 2, 3, 4]
 console.log(x, y, remaining) // 1,2,[3,4]
 
 // Array Assignment
@@ -30,12 +31,12 @@ console.log(point3D)
 
 // for...of
 
-let someArray = [9, 2, 5]
+const someArray = [9, 2, 5]
 for (let item in someArray) {
   console.log(item) // 0,1,2
 }
 
-let otherArray = [9, 2, 5]
+const otherArray = [9, 2, 5]
 for (let item of otherArray) {
   console.log(item) // 9,2,5
 }
@@ -50,9 +51,10 @@ for (let char of hello) {
 // String Interpolation
 let lyrics = 'Never gonna give you up'
 const html = `<div>${lyrics}</div>`
+console.log(html)
 
 // Multiline Literals
-let lyrics2 = `Never gonna give you up
+const lyrics2 = `Never gonna give you up
 Never gonna let you down`
 
 console.log(lyrics2)
